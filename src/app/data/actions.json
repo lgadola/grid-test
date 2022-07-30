@@ -1,0 +1,17 @@
+[{
+  "actionKey": "4",
+  "actionTitle": "setze Event status auf reserviert",
+  "actionId": "61f5d8cc-d166-f26b-bffe-3a05226ec376",
+  "selected": false,
+  "amount": 0,
+  "comment": null,
+  "actionAutomatic": true
+}, {
+  "actionKey": "10",
+  "actionTitle": "SpielpartnerIn ist studierend oder JuniorIn",
+  "actionId": "86308eb5-086b-15f9-bccd-3a05226ec378",
+  "selected": false,
+  "amount": 0,
+  "comment": null,
+  "actionAutomatic": false
+}]

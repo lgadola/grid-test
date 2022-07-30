@@ -1,0 +1,14 @@
+<h2 class="content-block">Test</h2>
+<div class="content-block">
+  <div class="dx-card responsive-paddings">
+    <dx-scheduler [dataSource]="getEvents()" (onAppointmentFormOpening)="onAppointmentFormOpening($event)"
+    [groups]="['resourceIds']" [startDayHour]="8" [endDayHour]="20" startDateExpr="start"
+    endDateExpr="end"    >
+      <dxi-resource [dataSource]="getResources()" [allowMultiple]="true" label="Resource" fieldExpr="resourceIds"
+      displayExpr="title">
+    </dxi-resource>
+
+    </dx-scheduler>
+
+  </div>
+</div>
